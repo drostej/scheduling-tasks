@@ -20,6 +20,10 @@ public class Application {
     // todo - versuchen mit logging zu versuchen herauszufinden wie sich die Werte ändern
     System.setProperty("faketime.offset.seconds", "7000");
     log.info("Started the application at {}", dateFormat.format(new Date()));
+
+
+    
+
     // log.info("cron expression is 0 45 15 ? * *");
     log.info("cron expression is every 5 minutes");
     SpringApplication.run(Application.class);
