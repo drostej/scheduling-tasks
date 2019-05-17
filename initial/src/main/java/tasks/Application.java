@@ -21,9 +21,6 @@ public class Application {
     System.setProperty("faketime.offset.seconds", "7000");
     log.info("Started the application at {}", dateFormat.format(new Date()));
 
-
-    
-    
     
 
     // log.info("cron expression is 0 45 15 ? * *");
