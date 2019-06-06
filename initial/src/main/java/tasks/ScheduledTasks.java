@@ -16,6 +16,9 @@ public class ScheduledTasks {
 
   @Scheduled(fixedRate = 10000)
   public void reportCurrentTime() {
+    
+    
+    
     log.info("The time is before set system propertiy faketime {}", dateFormat.format(new Date()));
   }
 }
