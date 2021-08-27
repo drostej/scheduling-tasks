@@ -1,4 +1,4 @@
-### Starten der spring boot Anwendung mit maven
+### Starten der spring boot Anwendung mit maven - weiß ja jeder
 ./mvnw spring-boot:run
 
 ### Build des Images mit maven
